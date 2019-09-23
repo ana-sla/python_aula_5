@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+{% load static %} <!--busca do static ou a pasta q precisa ser buscada -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}"> <!--dessa forma com % ele busca sempre o arquivo na pasta certa, e mesmo q vc mude algo de lugar nao buga-->
+    <script defer src="{% static 'js/script.js'%}"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>oi</h1>
+    
+</body>
+</html>
